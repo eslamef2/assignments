@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container-cards {
+  background-color: #ddd;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  padding: 10px;
+
+  .card {
+    display: flex;
+    width: calc(100% / 2 - 12.5px);
+    background-color: #fff;
+    gap: 10px;
+    border-radius: 5px;
+
+    .image-holder {
+      width: 100%;
+
+      img {
+        max-width: 100%;
+        height: 100%;
+      }
+    }
+
+    h2 {
+      font-weight: normal;
+      color: #4b5259;
+      font-size: 18px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .info {
+      p {
+        line-height: 1.6;
+      }
+
+      span {
+        color: #777;
+      }
+    }
+  }
+}

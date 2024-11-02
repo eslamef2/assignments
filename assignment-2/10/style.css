@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ddd;
+}
+
+.login {
+  margin: 100px auto;
+  position: relative;
+  width: 600px;
+  background-color: #fff;
+}
+.login .welcome {
+  text-align: center;
+}
+.login .welcome h4 {
+  margin-bottom: 0;
+  padding: 20px 0 10px 0;
+}
+.login .welcome p {
+  margin-top: 0;
+}
+.login form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.login form label {
+  margin-bottom: 10px;
+}
+.login form input {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+.login form .password {
+  display: flex;
+  justify-content: space-between;
+}
+.login form .password span {
+  color: #777;
+}
+.login form .remember-me {
+  display: flex;
+}
+.login form .remember-me input {
+  width: 14px;
+}
+.login form button {
+  border: none;
+  background-color: #008eff;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+}
+.login .social-media {
+  padding-bottom: 20px;
+}
+.login .social-media p {
+  text-align: center;
+}
+.login .social-media .icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.login .social-media .icons img {
+  max-width: 100%;
+  width: 30px;
+}
+.login footer {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+}/*# sourceMappingURL=style.css.map */

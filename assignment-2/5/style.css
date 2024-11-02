@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color-applications-container: #f3f3f9;
+  --button-color: #0ab39c;
+  --paragraph-color: #777;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.employee-container {
+  background-color: var(--background-color-applications-container);
+  margin: 200px auto;
+  padding: 10px;
+  display: flex;
+  gap: 30px;
+}
+.employee-container .employee-box {
+  background-color: #fff;
+  width: 33.3333333333%;
+  border-radius: 8px;
+  padding: 10px;
+}
+.employee-container .employee-box .close {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.employee-container .employee-box .employee-info {
+  text-align: center;
+  padding: 20px;
+  border-block: 2px solid var(--background-color-applications-container);
+}
+.employee-container .employee-box .employee-info img {
+  max-width: 100%;
+  width: 70px;
+  border-radius: 50%;
+}
+.employee-container .employee-box p {
+  color: var(--paragraph-color);
+}
+.employee-container .employee-box .icons {
+  padding-top: 15px;
+  text-align: center;
+}
+.employee-container .employee-box .icons img {
+  max-width: 100%;
+  width: 20px;
+}
+.employee-container button {
+  background-color: var(--button-color);
+  border: none;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=style.css.map */

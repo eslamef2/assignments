@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white-color: #fff;
+  --dark-yalow: #f7b84b;
+  --fire-opal-color : #f06548;
+  --hot-pink-color: #f772af;
+  --persian-green: #0ab39c;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Start assignment-one */
+
+.assignment-one {
+  border: 1px solid #000;
+}
+
+.assignment-one .parent {
+  background-color: #990866;
+  height: 400px;
+}
+
+.assignment-one .parent .child {
+  background-color: #00ffff;
+  float: left;
+  width: calc(100% / 3 - 20px);
+  height: calc(100% - 20px);
+  padding-top: 20px;
+  margin: 10px;
+}
+
+/* End assignment-one */
+
+/* Start assignment-two */
+
+section.assignment-two {
+  width: 500px;
+  margin: 100px auto;
+}
+
+.assignment-two button {
+  color: var(--white-color);
+  border-radius: 3px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.assignment-two .primary {
+  background-color: #405189;
+}
+
+.assignment-two .secondary {
+  background-color: #3577f1;
+}
+
+.assignment-two .success {
+  background-color: var(--persian-green);
+}
+
+.assignment-two .info {
+  background-color: #299cdb;
+}
+
+.assignment-two .waring {
+  background-color: var(--dark-yalow);
+}
+
+.assignment-two .danger {
+  background-color: var(--fire-opal-color);
+}
+
+.assignment-two .dark {
+  background-color: #212529;
+}
+
+/* End assignment-two */
+
+/* Start assignment-three */
+
+.assignment-three .form-container {
+  background-color: var(--white-color);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.assignment-three h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.assignment-three p {
+  color: #777;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.assignment-three p span {
+  color: var(--hot-pink-color);
+}
+
+.assignment-three .form-group {
+  margin-bottom: 15px;
+}
+
+.assignment-three label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.assignment-three .form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.assignment-three .btn {
+  background-color: #4a69bd;
+  color: var(--white-color);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  float: right;
+}
+
+.assignment-three .clear {
+  clear: both;
+}
+
+/* End assignment-three */
+
+/* Start assignment-four */
+
+.assignment-four {
+  margin: 100px 0;
+  padding: 10px;
+  background-color: #f3f3f9;
+}
+
+.assignment-four .container {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: var(--white-color);
+}
+
+.assignment-four h2 {
+  margin-bottom: 20px;
+}
+
+.assignment-four p {
+  color: #777;
+  margin: 20px 0;
+}
+
+.assignment-four p span {
+  color: var(--hot-pink-color);
+}
+
+.assignment-four iframe {
+  width: 100%;
+  height: 300px;
+}
+
+/* End assignment-four */
+
+/* Start assignment-five */
+
+.assignment-five {
+  /* max-width: 1200px; */
+  padding: 20px;
+  background-color: #f3f3f9;
+}
+
+.container-default-table,
+.container-striped-table{
+  background-color: #fff;
+  width: calc(100% / 2 - 14px);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.container-default-table {
+  float: left;
+  margin-right: 7.5px;
+}
+
+.container-striped-table {
+  float: right;
+  margin-left: 7.5px;
+}
+
+.clear {
+  clear: both;
+}
+
+.default-table,
+.striped-table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.container-default-table h2,
+.container-striped-table h2 {
+  margin: 20px 0;
+}
+
+.container-default-table p,
+.container-striped-table p {
+  color: #777;
+  margin: 15px 0;
+}
+
+.container-default-table p span,
+.container-striped-table p span {
+  color: var(--hot-pink-color);
+}
+
+tr th,
+tr td {
+    border-bottom: 3px solid #e9ebec;
+    padding: 10px;
+    text-align: start;
+}
+
+.default-table tr td:first-of-type {
+  color: #40519c;
+}
+
+.default-table tr td:last-of-type a {
+  text-decoration: none;
+  color: #21b39c;
+}
+
+.striped-table .special-background {
+  background-color: #fbfbfb;
+}
+
+.striped-table td button {
+  color: var(--white-color);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.striped-table td button.confirmed {
+  background-color: var(--persian-green);
+}
+
+.striped-table td button.waiting {
+  background-color: var(--dark-yalow);
+}
+
+.striped-table td button.cancelled {
+  background-color: var(--fire-opal-color);
+}
+
+/* .container-default-table table tr {
+  border-bottom: 1px solid #777;
+} */
+
+/* End assignment-five */
+

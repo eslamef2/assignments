@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>assignment-1</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Start assignment-one -->
+
+    <section class="assignment-one">
+      <div class="parent">
+        <article class="child">Blog article One</article>
+        <article class="child">Blog article Two</article>
+        <article class="child">Blog article Three</article>
+        <div class="clear"></div>
+      </div>
+    </section>
+
+    <!-- End assignment-one -->
+
+    <!-- Start assignment-two -->
+
+    <section class="assignment-two">
+      <button class="primary">Primary</button>
+      <button class="secondary">Secondary</button>
+      <button class="success">Success</button>
+      <button class="info">Info</button>
+      <button class="waring">Waring</button>
+      <button class="danger">Danger</button>
+      <button class="dark">Dark</button>
+    </section>
+
+    <!-- End assignment-two -->
+
+    <!-- Start assignment-three -->
+
+    <section class="assignment-three">
+      <div class="form-container">
+        <h2>Vertical Form</h2>
+        <hr />
+        <p>
+          Example of vertical form using <span>form-control</span> class. No
+          need to specify row and col class to create vertical form.
+        </p>
+        <form>
+          <div class="form-group">
+            <label for="employeeName">Employee Name</label>
+            <input
+              type="text"
+              id="employeeName"
+              class="form-input"
+              placeholder="Enter employee name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="employeeURL">Employee Department URL</label>
+            <input
+              type="url"
+              id="employeeURL"
+              class="form-input"
+              placeholder="Enter employee url"
+            />
+          </div>
+          <div class="form-group">
+            <label for="startLeaveDate">Start Leave Date</label>
+            <input type="text" id="startLeaveDate" class="form-input" />
+          </div>
+          <div class="form-group">
+            <label for="endLeaveDate">End Leave Date</label>
+            <input type="text" id="endLeaveDate" class="form-input" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              class="form-input"
+              rows="4"
+              placeholder="Enter your message"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn">Add Leave</button>
+          <div class="clear"></div>
+        </form>
+      </div>
+    </section>
+
+    <!-- End assignment-three -->
+
+    <!-- Start assignment-four -->
+
+    <section class="assignment-four">
+      <div class="container">
+        <h2>Ratio Video 16:9</h2>
+        <hr />
+        <p>
+          Wrap any embed in <span>&lt;iframe&gt;</span> tag, in a parent
+          element, use <span>ratio-16x9</span> class to set aspect ratio 16:9.
+        </p>
+        <iframe
+          src="https://www.youtube.com/embed/FSVHx23ByhM?si=yidNcIw_fCreB4ke"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- End assignment-four -->
+
+    <!-- Start assignment-five -->
+
+    <section class="assignment-five">
+      <!-- Start Default Table -->
+
+      <div class="container-default-table">
+        <h2>Default Table</h2>
+        <hr />
+        <p>Use <span>table</span> class to show bootstrap default table</p>
+        <table class="default-table">
+          <tr>
+            <th>ID</th>
+            <th>Customer</th>
+            <th>Date</th>
+            <th>Invoice</th>
+            <th>Action</th>
+          </tr>
+          <tr>
+            <td>#VZ2110</td>
+            <td>Bobby Davis</td>
+            <td>October 15, 2021</td>
+            <td>$2,300</td>
+            <td><a href="#">View More →</a></td>
+          </tr>
+          <tr>
+            <td>#VZ2109</td>
+            <td>Christopher Neal</td>
+            <td>October 7, 2021</td>
+            <td>$5,500</td>
+            <td><a href="#">View More →</a></td>
+          </tr>
+          <tr>
+            <td>#VZ2108</td>
+            <td>Monkey Karry</td>
+            <td>October 5, 2021</td>
+            <td>$2,420</td>
+            <td><a href="#">View More →</a></td>
+          </tr>
+          <tr>
+            <td>#VZ2107</td>
+            <td>James White</td>
+            <td>October 2, 2021</td>
+            <td>$7,452</td>
+            <td><a href="#">View More →</a></td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- End Default Table -->
+
+      <!-- Start striped Table -->
+
+      <div class="container-striped-table">
+        <h2>Striped Rows</h2>
+        <hr />
+        <p>
+          Use <span>table-striped</span> class to add zebra-striping to any
+          table row within the <span>&lt;tbody&gt;</span>.
+        </p>
+        <table class="striped-table">
+          <tr>
+            <th>ID</th>
+            <th>Customer</th>
+            <th>Date</th>
+            <th>Invoice</th>
+            <th>Action</th>
+          </tr>
+          <tr >
+            <tr class="special-background">
+            <td>01</td>
+            <td >Bobby Davis</td>
+            <td>Nov 14, 2021</td>
+            <td>$2,410</td>
+            <td><button class="confirmed">Confirmed</button></td>
+          </tr>
+          <tr>
+            <td>02</td>
+            <td>Christopher Neal</td>
+            <td>Nov 21, 2021</td>
+            <td>$1,450</td>
+            <td><button class="waiting">Waiting</button></td>
+          </tr>
+          <tr class="special-background">
+            <td>03</td>
+            <td >Monkey Karry</td>
+            <td>Nov 24, 2021</td>
+            <td>$3,500</td>
+            <td><button class="confirmed">Confirmed</button></td>
+          </tr>
+          <tr>
+            <td>04</td>
+            <td>James White</td>
+            <td>Nov 25, 2021</td>
+            <td>$6,875</td>
+            <td><button class="cancelled">Cancelled</button></td>
+          </tr>
+        </table>
+      </div>
+      <div class="clear"></div>
+
+      <!-- End striped Table -->
+    </section>
+    <!-- End assignment-five -->
+  </body>
+</html>
